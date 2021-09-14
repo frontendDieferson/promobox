@@ -35,10 +35,14 @@ export default function App() {
           name='Home'
           component={Home}
           options={{
-          headerShown: false,
-          
-          
-          
+          title: 'Bem vindo ao PromoBox',
+          headerTitleAlign: 'center',
+          headerTintColor: '#B0BEC5',
+          headerStyle: {
+            backgroundColor: '#37474F'
+            
+          }
+           
           }}
         />
 
